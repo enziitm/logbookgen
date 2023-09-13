@@ -1,5 +1,6 @@
 # logbookgen
-Generate your car logbook automatically - EDUCATIONAL POURPOSE ONLY 
+Generate your car logbook automatically 
+EDUCATIONAL POURPOSE ONLY 
 
 
 Disclaimer:
