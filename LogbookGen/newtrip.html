@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>New Trip</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>New Trip</h1>
+    <form action="generate.php" method="post">
+        <label for="start_km">Starting KM:</label>
+        <input type="number" id="start_km" name="start_km" required>
+        <br>
+        <label for="end_km">Ending KM:</label>
+        <input type="number" id="end_km" name="end_km" required>
+        <br>
+        <label for="start_date">Start Date:</label>
+        <input type="date" id="start_date" name="start_date" required>
+        <br>
+        <label for="end_date">End Date:</label>
+        <input type="date" id="end_date" name="end_date" required>
+        <br>
+        <input type="submit" value="Generate Trips">
+    </form>
+</body>
+</html>

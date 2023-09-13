@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trip Results</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Trip Results</h1>
+    <button onclick="goToNewTripsPage()">Create New Trip</button>
+    <div class="km-box">
+        <p>Start KM: <?php echo $start_km; ?></p>
+        <p>End KM: <?php echo $end_km; ?></p>
+    </div>
+    
+    <table>
+        <tr>
+            <th>Trip</th>
+            <th>Distance (KM)</th>
+            <th>Current Odometer</th>
+        </tr>
+    </table>
+    <script>
+        function goToNewTripsPage() {
+            window.location.href = "newtrips.html"; 
+        }
+    </script>
+</body>
+</html>
